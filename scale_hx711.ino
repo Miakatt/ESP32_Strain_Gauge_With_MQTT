@@ -14,8 +14,8 @@ const char* password = "PASSWORD HERE";
 PubSubClient client;
 const char *mqtt_broker = "test.mosquitto.org";
 const char *topic = "esp32/test";
-const char *mqtt_username = "alan";
-const char *mqtt_password = "admin";
+const char *mqtt_username = "";
+const char *mqtt_password = "";
 const int mqtt_port = 1883;
 
 long t;
